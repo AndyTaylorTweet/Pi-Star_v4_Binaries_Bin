@@ -59,7 +59,7 @@ then
 		echo $raspberryVer
 	fi
 	
-elif [[ $hardwareField == "sun8i"* ]]
+elif [[ $hardwareField == *"sun8i"* ]]
 then
 	echo "sun8i based Pi Clone"
 else
