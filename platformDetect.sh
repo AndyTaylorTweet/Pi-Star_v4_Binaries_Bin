@@ -8,8 +8,7 @@
 modelName=`grep 'model name' /proc/cpuinfo | sed 's/.*: //'`
 hardwareField=`grep 'Hardware' /proc/cpuinfo | sed 's/.*: //'`
 
-if [[ $modelName == "ARM"* ]]
-then
+if [[ $modelName == "ARM"* ]]; then
 	# Pull the Board revision from /proc/cpuinfo
 	boardRev=`grep 'Revision' /proc/cpuinfo | awk '{print $3}' | sed 's/^1000//'`
 
@@ -52,15 +51,15 @@ then
 	*) raspberryVer="Unknown ARM based System";;
 	esac
 
-	if [[ $hardwareField == "ODROID"* ]]
-	then
+	if [[ ${hardwareField} == "ODROID"* ]]; then
 		echo "Odroid XU3/XU4 System"
+	elif [[ ${hardwareField} == *"sun8i"* ]]; then
+		echo "sun8i based Pi Clone"
 	else
 		echo $raspberryVer
 	fi
 	
-elif [[ $hardwareField == *"sun8i"* ]]
-then
+elif [[ ${hardwareField} == *"sun8i"* ]]; then
 	echo "sun8i based Pi Clone"
 else
 	echo "Generic "`uname -p`" class computer"
