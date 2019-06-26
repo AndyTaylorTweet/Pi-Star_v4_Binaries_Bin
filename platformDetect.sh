@@ -36,18 +36,26 @@ if [[ ${modelName} == "ARM"* ]]; then
 	*900092) raspberryVer="Pi Zero Rev 1.2 (512MB)";;
 	*900093) raspberryVer="Pi Zero Rev 1.3 (512MB)";;
 	*9000c1) raspberryVer="Pi Zero W Rev 1.1 (512MB)";;
-	*920093) raspberryVer="Pi Zero Rev 1.3 (512MB)";;
 	*9020e0) raspberryVer="Pi 3 Model A+ (512MB) - Sony, UK";;
+	*920092) raspberryVer="Pi Zero Rev 1.2 (512MB)";;
+	*920093) raspberryVer="Pi Zero Rev 1.3 (512MB)";;
+	*900061) raspberryVer="Compute Module 1 Rev 1.1";;
 	*a01040) raspberryVer="Pi 2 Model B (1GB) - Sony, UK";;
 	*a01041) raspberryVer="Pi 2 Model B (1GB) - Sony, UK";;
 	*a02082) raspberryVer="Pi 3 Model B (1GB) - Sony, UK";;
-	*a020d3) raspberryVer="Pi 3 Model B+ (1GB) - Sony, UK";;
 	*a020a0) raspberryVer="Compute Module 3 Rev 1.0 (1GB)";;
+	*a020d3) raspberryVer="Pi 3 Model B+ (1GB) - Sony, UK";;
 	*a21041) raspberryVer="Pi 2 Model B (1GB) - Embest, CH";;
 	*a22042) raspberryVer="Pi 2 Model B (1GB) - Embest, CH";;
 	*a22082) raspberryVer="Pi 3 Model B (1GB) - Embest, CH";;
+	*a220a0) raspberryVer="Compute Module 3 Rev 1.0 (1GB)";;
 	*a32082) raspberryVer="Pi 3 Model B (1GB) - Sony, JPN";;
 	*a52082) raspberryVer="Pi 3 Model B (1GB) - Stadium";;
+	*a22083) raspberryVer="Pi 3 Model B (1GB) - Embest";;
+	*a02100) raspberryVer="Compute Module 3+ Rev 1.0 (1GB)";;
+	*a03111) raspberryVer="Pi 4 Model B (1GB) - Sony, UK";;
+	*b03111) raspberryVer="Pi 4 Model B (2GB) - Sony, UK";;
+	*c03111) raspberryVer="Pi 4 Model B (4GB) - Sony, UK";;
 	*) raspberryVer="Unknown ARM based System";;
 	esac
 
