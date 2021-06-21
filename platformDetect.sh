@@ -82,3 +82,11 @@ else
 	echo "Generic "`uname -p`" class computer"
 fi
 
+# workaround to check if user stuck on pistar-update v3.3 or v3.4, if yes then force update now
+if grep -q 'Version 3.3,\|Version 3.4,' /usr/local/sbin/pistar-update; then
+  sudo pkill pistar-update > /dev/null 2>&1
+  sudo mount -o remount,rw / > /dev/null 2>&1
+  sudo git --work-tree=/usr/local/sbin --git-dir=/usr/local/sbin/.git pull origin master > /dev/null 2>&1
+  sudo rm -f /usr/local/sbin/pistar-upnp.service > /dev/null 2>&1
+  sudo git --work-tree=/usr/local/sbin --git-dir=/usr/local/sbin/.git reset --hard origin/master > /dev/null 2>&1
+fi
