@@ -26,3 +26,4 @@ MD5 (zum_rpi.bin) = 575707fd7b8559087d523f5452cf9708
 MD5 (zum_usb.bin) = 8241c25b2f5b7434579ca6c2265e9295
 MD5 (F446RE.elf) = cd7e0db4b70f89f2a519cae8ded2ad41
 MD5 (F767ZI.elf) = 6ee0934eae14e4091d552c9e70cb7556
+MD5 (hs_hat_nano_hotspot-duplex.bin) = 9befd89525b6c2e13b3e312bd1410e78
