@@ -1,0 +1,17 @@
+--2024-01-30 10:15:05--  https://github.com/juribeparada/MMDVM_HS/releases/download/v1.5.2/mmdvm_hs_dual_hat_fw-12mhz.bin
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/80589711/aba01a80-21f6-11eb-9943-5b876f4cfdeb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240130T101505Z&X-Amz-Expires=300&X-Amz-Signature=973d70194105f4b6c9439771f3408716cbcd4dc10a9d6ea6fc7e0e88eb66c03f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=80589711&response-content-disposition=attachment%3B%20filename%3Dmmdvm_hs_dual_hat_fw-12mhz.bin&response-content-type=application%2Foctet-stream [following]
+--2024-01-30 10:15:05--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/80589711/aba01a80-21f6-11eb-9943-5b876f4cfdeb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240130T101505Z&X-Amz-Expires=300&X-Amz-Signature=973d70194105f4b6c9439771f3408716cbcd4dc10a9d6ea6fc7e0e88eb66c03f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=80589711&response-content-disposition=attachment%3B%20filename%3Dmmdvm_hs_dual_hat_fw-12mhz.bin&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 52632 (51K) [application/octet-stream]
+Saving to: ‘mmdvm_hs_dual_hat_fw-12mhz.bin’
+
+     0K .......... .......... .......... .......... .......... 97% 5.70M 0s
+    50K .                                                     100% 2.29M=0.009s
+
+2024-01-30 10:15:06 (5.48 MB/s) - ‘mmdvm_hs_dual_hat_fw-12mhz.bin’ saved [52632/52632]
+
