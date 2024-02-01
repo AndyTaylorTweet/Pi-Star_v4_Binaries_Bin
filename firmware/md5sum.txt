@@ -15,3 +15,4 @@ MD5 (zum_libre.bin) = e8925a0c9caef1440cbd05a7a3b664a2
 MD5 (zum_rpi-duplex.bin) = ffd593f830a0d4ce959eb418cab2335d
 MD5 (zum_rpi.bin) = f8fcd13a70690d2d7780b2c4782ffefd
 MD5 (zum_usb.bin) = 7cb0e81b3d3d6877accc1afe2aebc210
+MD5 (dvmega_gpio.hex) = b749cd976e3abdfa0c431d4cd2d7064a
