@@ -1,4 +1,4 @@
 [Firmware]
 mmdvm_hs_version=1.5.2
-rpt_version=20221121_(10-Nov-2023_Git:029e6df)
+rpt_version=20221121_10-Nov-2023_Git:029e6df
 dvmega_version=3.19
