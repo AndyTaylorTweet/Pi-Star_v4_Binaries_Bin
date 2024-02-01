@@ -28,3 +28,5 @@ MD5 (F446RE.elf) = cd7e0db4b70f89f2a519cae8ded2ad41
 MD5 (F767ZI.elf) = 6ee0934eae14e4091d552c9e70cb7556
 MD5 (hs_hat_nano_hotspot-duplex.bin) = 9befd89525b6c2e13b3e312bd1410e78
 MD5 (dvmega_gpio.hex) = 96cc64640cfc01e0ba9615ba1f05b2a7
+MD5 (dvmega_usb_mega.hex) = 0e7e1ce60964bd06861d38c1c7cceee2
+MD5 (dvmega_usb_uno.hex) = 96cc64640cfc01e0ba9615ba1f05b2a7
