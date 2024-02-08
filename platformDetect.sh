@@ -88,6 +88,8 @@ if [[ ${modelName} == "ARM"* ]]; then
 	
 elif [[ ${hardwareField} == *"sun8i"* ]]; then
 	echo "sun8i based Pi Clone"
+elif [[ ${raspberryModel} == "Raspberry"* ]]; then
+	echo ${raspberryModel}
 else
 	echo "Generic "`uname -p`" class computer"
 fi
