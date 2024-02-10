@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# Root
-mount -o remount,rw /
-
 # Bookworm /boot/firmware
 if [ -d /boot/firmware ]; then
+  (sudo mount -o remount,rw / 2>/dev/null ; sudo mount -o remount,rw /boot/firmware 2>/dev/null)
   mount -o remount,rw /boot/firmware
 else
   mount -o remount,rw /boot
+  mount -o remount,rw /
 fi
 
 /usr/bin/apt-get "$@"
