@@ -19,7 +19,19 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 '''
 
-import serial
+# Cleanup / Nicely fail when serial module is not loaded - Andy Taylor (MW0MWZ)
+try:
+    import serial
+except ImportError:
+    print('Error: The serial module is not installed.\nPlease install it using: apt install python3-serial')
+    exit(1)
+except ModuleNotFoundError:
+    print('Error: The serial module is not found.\nPlease install it using: apt install python3-serial')
+    exit(1)
+except Exception as e:
+    print(f'An error occurred: {e}')
+    exit(1)
+
 import time
 import sys
 import os
