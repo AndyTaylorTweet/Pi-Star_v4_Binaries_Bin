@@ -1,0 +1,23 @@
+Your MMDVMHost config (/etc/mmdvmhost) should have the following set for your chosen layout.
+
+G4KLX Layouts:
+[Nextion]
+ScreenLayout=1
+
+GB2OE Layouts:
+[Nextion]
+ScreenLayout=1
+
+ON7LDS L2:
+[Nextion]
+ScreenLayout=2
+
+ON7LDS L3:
+[Nextion]
+ScreenLayout=4
+
+ON7LDS ND-L3:
+*Note: Requires NextionDriver
+[Nextion]
+ScreenLayout=4
+
