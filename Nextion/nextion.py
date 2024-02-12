@@ -52,16 +52,16 @@ def getBaudrate(ser, fSize=None, checkModel=None):
             print('Connected with baudrate: ' + str(baudrate) + '...')
             noConnect = False
             status, unknown1, model, fwversion, mcucode, serial, flashSize = r.strip(b"\xff\x00").split(b',')
-            print('Status: ' + status.split(b' ')[0].decode())
+            print('Status: ' + status.split(b' ')[0].decode('utf-8', errors='ignore'))
             if status.split(b' ')[1] == b"1":
                 print('Touchscreen: yes')
             else:
                 print('Touchscreen: no')
-            print('Model: ' + model.decode())
-            print('Firmware version: ' + fwversion.decode())
-            print('MCU code: ' + mcucode.decode())
-            print('Serial: ' + serial.decode())
-            print('Flash size: ' + flashSize.decode())
+            print('Model: ' + model.decode('utf-8', errors='ignore'))
+            print('Firmware version: ' + fwversion.decode('utf-8', errors='ignore'))
+            print('MCU code: ' + mcucode.decode('utf-8', errors='ignore'))
+            print('Serial: ' + serial.decode('utf-8', errors='ignore'))
+            print('Flash size: ' + flashSize.decode('utf-8', errors='ignore'))
             if fSize and fSize > int(flashSize):
                 print('File too big!')
                 return False
